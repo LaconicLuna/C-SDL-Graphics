@@ -1,0 +1,3 @@
+```
+gcc main.c renderer.c sprite_registry.c -I SDL/include -L SDL/lib -lSDL3 -o game;
+```
