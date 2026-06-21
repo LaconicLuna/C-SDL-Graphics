@@ -131,7 +131,7 @@ void ClearFramebuffer(uint32_t color) {
         framebuffer[i] = color;
 }
 
-void renderer_render(const uint8_t* ram) {
+void renderer_render() {
     memset(framebuffer, 0, sizeof(framebuffer));
     ClearFramebuffer(0xFF0FADED);
     DrawSprite(0,0,GetSprite("smol"));
